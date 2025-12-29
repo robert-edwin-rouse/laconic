@@ -28,13 +28,13 @@ html {
 }
 
 body {
-  background-color: #284f4e;
-  border: 0 #000;
+  background-color: #ffffff;
+  border: 0 #ffffff;
   display: flex;
   flex-flow: column;
   height: 100%;
   margin: 0;
-  color: #333;
+  color: #ffffff;
   min-height: 100%;
   font-family: Franklin Gothic Medium Cond, sans-serif;
   font-size: 1rem;
@@ -43,6 +43,16 @@ body {
   justify-content: center;
 }
 
+body.landing-page {
+  background: #284f4e !important;
+  background-color: #284f4e !important;
+  border: 0 #284f4e !important;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  margin: 0;
+  color: #284f4e !important;
+}
 
 main {
   width: 100%;
@@ -66,7 +76,7 @@ h2 {
   font-size: 20px;
   line-height: 28px;
   margin: 0 0 20px 0;
-  color: #eaddc7;
+  color: #284f4e;
   text-align: left;
   font-family: Franklin Gothic Medium Cond, sans-serif;
 }
@@ -111,9 +121,12 @@ img.tiny-logo {
   transition: background 0.2s;
   margin-bottom: 24px;
   font-family: Franklin Gothic Medium Cond, sans-serif;
+  transition: color 0.2s;
+
 }
 
 .enter-btn:hover {
+  color: #fff;
   background: #444;
 }
 
@@ -122,7 +135,7 @@ img.tiny-logo {
   top: 0;
   left: 0;
   width: 100%;
-  height: 64px;
+  height: 48px;
   background: #284f4e;
   display: flex;
   align-items: center;
@@ -137,7 +150,7 @@ img.tiny-logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 360px;
+  padding: 0 380px;
 }
 
 .header-links {
@@ -171,13 +184,53 @@ img.tiny-logo {
 }
 
 .header-logo img {
-  width: 40px !important;
+  width: 32px !important;
   min-width: 0 !important;
   max-width: 100% !important;
   height: auto !important;
   display: block;
   margin: 0 auto 0 auto;
   padding-top: 0;
+}
+
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  background: #284f4e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 380px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 32px;
+}
+
+.footer-links a {
+  color: #eaddc7;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: Din Condensed, sans-serif;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #fff;
 }
 
 .extras {
