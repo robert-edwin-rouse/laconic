@@ -25,6 +25,7 @@ html {
   font-family: sans-serif;
   height: 100dvh;
   width: 100%;
+  background-color: #284f4e;
 }
 
 body {
@@ -32,15 +33,9 @@ body {
   border: 0 #ffffff;
   display: flex;
   flex-flow: column;
-  height: 100%;
   margin: 0;
   color: #ffffff;
-  min-height: 100%;
-  font-family: Franklin Gothic Medium Cond, sans-serif;
-  font-size: 1rem;
-  line-height: 20px;
-  align-items: center;
-  justify-content: center;
+  overscroll-behavior-y: none;
 }
 
 body.landing-page {
@@ -60,19 +55,30 @@ main {
   min-height: 100%;
   display: flex;
   flex-flow: column;
-  align-items: center;
 }
 
 h1 {
   margin: .67em 0;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-top: 80px;
   font-weight: bold;
-  font-size: 38px;
+  font-size: 30px;
   line-height: 44px;
+  color: #284f4e;
+  text-align: center;
+  font-family: Din Condensed, sans-serif;
 }
 
 h2 {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 0 20px 0;
+  color: #284f4e;
+  text-align: left;
+  font-family: Franklin Gothic Medium Cond, sans-serif;
+}
+
+h3 {
   font-size: 16px;
   line-height: 28px;
   margin: 0 0 20px 0;
@@ -81,12 +87,38 @@ h2 {
   font-family: Franklin Gothic Medium Cond, sans-serif;
 }
 
+h4 {
+  font-size: 15px;
+  line-height: 28px;
+  margin: 0 0 20px 0;
+  color: #284f4e;
+  text-align: left;
+  font-family: Franklin Gothic Medium Cond, sans-serif;
+}
+
+p {
+  font-size: 14px;
+  line-height: 28px;
+  margin: 0 0 20px 0;
+  color: #284f4e;
+  text-align: justify;
+  font-family: Franklin Gothic Medium Cond, sans-serif;
+}
+
 .center-container {
   min-height: 100vh;
+  padding-top: 64px;    /* Adjust to your header's height */
+  padding-bottom: 64px; /* Adjust to your footer's height */
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.thin-container {
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .landing-logo img{
