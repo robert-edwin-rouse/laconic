@@ -72,34 +72,43 @@ h1 {
 h2 {
   font-size: 18px;
   line-height: 28px;
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
   color: #284f4e;
   text-align: left;
-  font-family: Franklin Gothic Medium Cond, sans-serif;
+  font-family: Franklin Gothic Cond, sans-serif;
 }
 
 h3 {
   font-size: 16px;
   line-height: 28px;
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
   color: #284f4e;
   text-align: left;
-  font-family: Franklin Gothic Medium Cond, sans-serif;
+  font-family: Franklin Gothic Cond, sans-serif;
 }
 
 h4 {
   font-size: 15px;
-  line-height: 28px;
-  margin: 0 0 20px 0;
+  line-height: 26px;
+  margin: 0 0 10px 0;
   color: #284f4e;
   text-align: left;
-  font-family: Franklin Gothic Medium Cond, sans-serif;
+  font-family: Franklin Gothic Cond, sans-serif;
 }
 
 p {
   font-size: 14px;
-  line-height: 28px;
-  margin: 0 0 20px 0;
+  line-height: 26px;
+  margin: 0 0 10px 0;
+  color: #284f4e;
+  text-align: justify;
+  font-family: Franklin Gothic Medium Cond, sans-serif;
+}
+
+li {
+  font-size: 14px;
+  line-height: 26px;
+  margin: 0 0 10px 0;
   color: #284f4e;
   text-align: justify;
   font-family: Franklin Gothic Medium Cond, sans-serif;
@@ -119,6 +128,28 @@ p {
 .thin-container {
   padding-left: 25%;
   padding-right: 25%;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #284f4e #ffffff;
+}
+
+/* For Webkit browsers */
+.thin-container::-webkit-scrollbar {
+  width: 2px;
+  background: #ffffff;
+}
+
+.thin-container::-webkit-scrollbar-thumb {
+  background: #3c6e6d;
+  border-radius: 0px;
+}
+
+.thin-container::-webkit-scrollbar-thumb:hover {
+  background: #284f4e;
+}
+
+.thin-container::-webkit-scrollbar-track {
+  background: #ffffff;
 }
 
 .landing-logo img{
