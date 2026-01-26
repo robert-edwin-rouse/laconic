@@ -1163,35 +1163,21 @@ animation: ml-form-embedSubmitLoad 1.2s linear infinite;
 
 @font-face {
   font-family: 'Franklin Gothic Medium Cond';
-  src: url('./fonts/franklin_gothic_medium_cond.ttf') format('truetype');
+  src: url('./fonts/FGMC.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Franklin Gothic Regular';
-  src: url('./fonts/franklin_gothic_regular.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
   font-family: 'Franklin Gothic Cond';
-  src: url('./fonts/franklin_gothic_condensed.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Din Alternate';
-  src: url('./fonts/din-alternate-bold.ttf') format('truetype');
+  src: url('./fonts/FGC.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Din Condensed';
-  src: url('./fonts/din-condensed-bold.ttf') format('truetype');
+  src: url('./fonts/DIN.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
