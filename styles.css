@@ -141,7 +141,7 @@ img.tiny-logo {
   font-size: 1.2rem;
   text-align: center;
   border: none;
-  border-radius: 6px;
+  border-radius: 0px;
   cursor: pointer;
   transition: background 0.2s;
   margin-bottom: 24px;
@@ -152,7 +152,7 @@ img.tiny-logo {
 
 .enter-btn:hover {
   color: #fff;
-  background: #444;
+  background: #284f4e;
 }
 
 .main-header {
