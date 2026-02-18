@@ -700,6 +700,7 @@ input[type="email"] {
   }
 
   .contact-container {
+    max-width: 70%;
     padding-left: 15%;
     padding-right: 15%;
   }
