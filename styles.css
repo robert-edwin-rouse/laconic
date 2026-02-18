@@ -695,8 +695,8 @@ input[type="email"] {
   }
 
   .thin-container {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   .slider-nav {
@@ -718,8 +718,8 @@ input[type="email"] {
   }
 
   .slide-container {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
   }
 
 }
