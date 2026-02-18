@@ -694,6 +694,11 @@ input[type="email"] {
     padding-top: 0px;
   }
 
+  .thin-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
   .slider-nav {
     position: relative !important;
     z-index: 100 !important;
