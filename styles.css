@@ -337,8 +337,18 @@ img.tiny-logo {
 
 .center-container {
   min-height: 100vh;
-  padding-top: 64px;    /* Adjust to your header's height */
-  padding-bottom: 64px; /* Adjust to your footer's height */
+  padding-top: 64px;
+  padding-bottom: 64px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-container-shallow {
+  padding-top: 48px;
+  padding-bottom: 64px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -352,6 +362,20 @@ img.tiny-logo {
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #284f4e #ffffff;
+}
+
+.thin-container h2 {
+  text-align: center;
+}
+
+.banner-container {
+  width: 100%; 
+  padding-top: 48px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-container {
@@ -509,6 +533,60 @@ img.tiny-logo {
   border: 0;
 }
 
+#mlb2-35356552.ml-form-embedContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ml-form-embedWrapper.embedForm {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.ml-form-embedBody.ml-form-embedBodyDefault.row-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ml-form-embedContent {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.ml-form-embedWrapper.embedForm,
+.ml-form-embedBody.ml-form-embedBodyDefault.row-form,
+.ml-block-form,
+.ml-form-formContent,
+.ml-form-fieldRow,
+.ml-field-group {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Email input field full width of text block */
+.form-control[type="email"],
+input[type="email"] {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto 12px auto;
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid #284f4e;
+  box-sizing: border-box;
+  display: block;
+  font-family: Franklin Gothic Medium Cond, sans-serif;
+}
+
 .ml-form-embedSubmitLoad:after {
   content: " ";
   display: block;
@@ -517,8 +595,33 @@ img.tiny-logo {
   margin: 1px;
   border-radius: 50%;
   border: 4px solid #fff;
-border-color: #ffffff #ffffff #ffffff transparent;
-animation: ml-form-embedSubmitLoad 1.2s linear infinite;
+  border-color: #ffffff #ffffff #ffffff transparent;
+  animation: ml-form-embedSubmitLoad 1.2s linear infinite;
+}
+
+.ml-form-embedSubmit button.primary {
+  background: #284f4e !important;
+  color: #eaddc7 !important;
+  border: none !important;
+  font-family: Din Condensed, sans-serif;
+  font-size: 1.1rem;
+  padding: 12px 32px !important;
+  margin: 12px auto 0 auto !important;
+  display: block !important;
+  letter-spacing: 1px;
+  box-shadow: none !important;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.ml-form-embedSubmit button.primary:hover,
+.ml-form-embedSubmit button.primary:focus {
+  color: #fff !important;
+}
+
+.ml-form-embedPermissionsContent p {
+  line-height: 16px !important;
 }
 
 @keyframes ml-form-embedSubmitLoad {
