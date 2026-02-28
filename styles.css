@@ -137,6 +137,7 @@ li {
 
 .landing-logo-corner img {
   max-height: 128px;
+  width: 12vw;
   opacity: 0.85;
   display: block;
 }
@@ -164,7 +165,6 @@ img.tiny-logo {
   margin-bottom: 24px;
   font-family: Franklin Gothic Medium Cond, sans-serif;
   transition: color 0.2s;
-
 }
 
 .enter-btn:hover {
@@ -682,7 +682,13 @@ input[type="email"] {
     min-width: 0 !important;
     display: block;
   }
-    
+  
+  .enter-button {
+  padding: 2px 8px;
+  margin-bottom: 2px;
+
+  }
+
   .header-links{
     display: none !important; /* Hide desktop nav and logo */
   }
