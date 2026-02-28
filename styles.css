@@ -130,13 +130,13 @@ li {
 
 .landing-logo-corner {
   position: fixed;
-  right: 24px;
-  bottom: 24px;
+  right: 2vh;
+  bottom: 2vh;
   z-index: 1000;
 }
 
 .landing-logo-corner img {
-  height: 20vh;
+  height: 16vh;
   opacity: 0.85;
   display: block;
 }
@@ -665,9 +665,9 @@ input[type="email"] {
   .landing-container {
     background: #000000 !important;
     background-color: #000000 !important;
-    max-height: 60vh;
-    padding-top: 0;
-    padding-bottom: 0;
+    max-height: 80svh;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -676,7 +676,7 @@ input[type="email"] {
   }
 
   .landing-image img {
-    max-height: 60vh !important;
+    max-height: 80vh !important;
     width: auto !important;
     min-width: 0 !important;
     display: block;
@@ -685,13 +685,6 @@ input[type="email"] {
   .enter-button {
   padding: 2px 8px;
   margin-bottom: 2px;
-  }
-
-  .landing-logo-corner {
-  position: fixed;
-  right: 8px;
-  bottom: 8px;
-  z-index: 1000;
   }
 
   .header-links{
