@@ -686,7 +686,7 @@ input[type="email"] {
   }
 
   .landing-image img {
-    max-height: 85svh !important;
+    max-height: 90svh !important;
     object-fit: contain;
     min-height: 60svh !important;
     width: auto !important;
