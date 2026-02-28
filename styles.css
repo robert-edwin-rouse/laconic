@@ -108,6 +108,8 @@ li {
 }
 
 .landing-container {
+  background: #000000 !important;
+  background-color: #000000 !important;
   min-height: 100vh;
   padding-top: 64px;
   padding-bottom: 64px;
