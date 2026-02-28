@@ -683,7 +683,7 @@ input[type="email"] {
   }
   
   .enter-button {
-  padding: 0px;
+  padding: 0px 0px 6.25vh;
   margin-bottom: 2px;
   }
 
