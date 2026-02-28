@@ -332,6 +332,8 @@ img.tiny-logo {
 }
 
 .landing-extras {
+  background: #000000 !important;
+  background-color: #000000 !important;
   color: #eaddc7;
   text-align: center;
   word-break: normal;
