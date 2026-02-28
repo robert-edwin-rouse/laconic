@@ -666,9 +666,9 @@ input[type="email"] {
   .landing-container {
     background: #000000 !important;
     background-color: #000000 !important;
-    max-height: 80vh;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    max-height: 70vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
