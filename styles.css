@@ -671,7 +671,7 @@ input[type="email"] {
   body.landing-page {
     min-height: 100svh;
   }
-  
+
   .landing-container {
     background: #000000 !important;
     background-color: #000000 !important;
@@ -686,6 +686,8 @@ input[type="email"] {
   }
 
   .landing-image img {
+    max-height: 75svh !important;
+    object-fit: contain;
     min-height: 60svh !important;
     width: auto !important;
     min-width: 0 !important;
