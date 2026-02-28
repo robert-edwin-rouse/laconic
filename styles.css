@@ -667,6 +667,10 @@ input[type="email"] {
     background: #000000 !important;
     background-color: #000000 !important;
   }
+
+  body.landing-page {
+    min-height: 100svh;
+  }
   
   .landing-container {
     background: #000000 !important;
