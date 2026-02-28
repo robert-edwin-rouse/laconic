@@ -662,6 +662,12 @@ input[type="email"] {
 }
 
 @media screen and (max-width: 767px) {
+    body.landing-page, html.landing-page {
+    overscroll-behavior: contain;
+    background: #000000 !important;
+    background-color: #000000 !important;
+  }
+  
   .landing-container {
     background: #000000 !important;
     background-color: #000000 !important;
