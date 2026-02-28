@@ -676,6 +676,13 @@ input[type="email"] {
     align-items: center;
   }
 
+  .landing-image img {
+    max-height: 60vh !important;
+    width: auto !important;
+    min-width: 0 !important;
+    display: block;
+  }
+    
   .header-links{
     display: none !important; /* Hide desktop nav and logo */
   }
