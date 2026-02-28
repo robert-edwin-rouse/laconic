@@ -110,7 +110,7 @@ li {
 .landing-container {
   background: #000000 !important;
   background-color: #000000 !important;
-  min-height: 80vh;
+  min-height: 100vh;
   padding-top: 64px;
   padding-bottom: 64px;
   box-sizing: border-box;
@@ -120,7 +120,7 @@ li {
   align-items: center;
 }
 
-.landing-landing-image img {
+.landing-image img {
   height: 85vh !important;
   width: auto !important;
   min-width: 0 !important;
@@ -663,6 +663,14 @@ input[type="email"] {
 }
 
 @media screen and (max-width: 767px) {
+  .landing-image img {
+    max-height: 75vh !important;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: 100vw !important;
+    display: block;
+  }
+
   .header-links{
     display: none !important; /* Hide desktop nav and logo */
   }
