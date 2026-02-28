@@ -665,7 +665,7 @@ input[type="email"] {
   .landing-container {
     background: #000000 !important;
     background-color: #000000 !important;
-    max-height: 70svh !important;
+    min-height: 70svh !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     box-sizing: border-box;
@@ -676,14 +676,14 @@ input[type="email"] {
   }
 
   .landing-image img {
-    max-height: 70svh !important;
+    min-height: 70svh !important;
     width: auto !important;
     min-width: 0 !important;
     display: block;
   }
   
   .enter-button {
-  padding: 2px 8px;
+  padding: 0px;
   margin-bottom: 2px;
   }
 
