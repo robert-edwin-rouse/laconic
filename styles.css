@@ -667,8 +667,8 @@ input[type="email"] {
     background: #000000 !important;
     background-color: #000000 !important;
     max-height: 80vh;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
